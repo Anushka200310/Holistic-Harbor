@@ -1,0 +1,192 @@
+  {
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day"],
+        "responses": ["Hello, thanks for visiting", "Good to see you again", "Hi there, how can I help?"],
+        "context_set": ""
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye"],
+        "responses": ["Thanks for visiting", "Have a nice day"]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful"],
+        "responses": ["You are welcome", "Any time!", "My pleasure"]
+      },
+      {
+        "tag": "Introduction",
+        "patterns": ["I need help"],
+        "responses": ["Sure, tell me how can I help you?"]
+      },
+      {
+        "tag": "health",
+        "patterns": ["I feel slightly dizzy at times and kind of feverish as well. What should I do"],
+        "responses": [
+          "I recommend you get certain blood tests done as well as getting your blood pressure checked."
+        
+        ],
+        "followup_patterns": ["Thanks for the suggestion", "Thank you"],
+        "followup_responses": ["Mention not"]
+      },
+
+      {
+        "tag": "allergies",
+        "patterns": ["How can I recognize the signs of an allergic reaction?"],
+        "responses": ["Signs of an allergic reaction: hives, swelling, difficulty breathing."]
+      },
+      {
+        "tag": "thyroid",
+        "patterns": ["What are the signs of a thyroid disorder?"],
+        "responses": [
+          "Hyperthyroidism: Unexplained weight loss, rapid heart rate, nervousness, excessive sweating, tremors, fatigue, irritability, muscle weakness, menstrual changes (Graves' disease may also cause bulging eyes).",
+          "Hypothyroidism: Unexplained weight gain, fatigue, cold sensitivity, dry skin, brittle hair and nails, constipation, depression, muscle aches and weakness, memory problems, swelling (edema)."
+        ]
+      },
+      {
+        "tag": "uti",
+        "patterns": ["How can I recognize the symptoms of a urinary tract infection?"],
+        "responses": [
+          "Recognize a urinary tract infection (UTI) by symptoms like frequent, painful urination, cloudy or bloody urine, and possible lower abdominal discomfort or fever; prompt medical attention is crucial for diagnosis and treatment."
+        ]
+      },
+
+      {
+        "tag": "health_advice",
+        "patterns": ["What can I do to improve my overall health?", "Any tips for a healthy lifestyle?", "How can I stay fit?"],
+        "responses": [
+            "Maintaining a balanced diet, regular exercise, getting enough sleep, and managing stress are essential for a healthy lifestyle.",
+            "Consider incorporating fruits, vegetables, whole grains, and lean proteins into your diet. Stay hydrated and exercise regularly to keep your body and mind in good shape.",
+            "Aim for at least 30 minutes of moderate exercise most days of the week. Also, make sure to get enough sleep as it is crucial for your overall health and well-being."
+        ]
+    },
+    {
+        "tag": "stress_management",
+        "patterns": ["I'm feeling stressed, what should I do?", "How can I manage stress?", "Any stress-relief techniques?"],
+        "responses": [
+            "It's important to find healthy ways to cope with stress. Consider activities like meditation, deep breathing, yoga, or hobbies to relax and unwind.",
+            "Regular physical activity, spending time with loved ones, and engaging in activities you enjoy can also help reduce stress. If stress persists, consider talking to a professional counselor or therapist."
+        ]
+    },
+    {
+        "tag": "stress_relief_activities",
+        "patterns": ["What are some stress relief activities?", "Suggest stress-busting hobbies", "Relaxation techniques for stress"],
+        "responses": [
+            "Engage in activities you enjoy, such as reading, gardening, or listening to music. Spending time in nature or practicing mindfulness meditation can also help alleviate stress.",
+            "Creative outlets like painting, writing, or cooking can be therapeutic. Additionally, consider activities like taking a warm bath, practicing deep breathing exercises, or doing gentle yoga."
+        ]
+    },
+    {
+        "tag": "mental_health_tips",
+        "patterns": ["How can I improve my mental health?", "Give me some tips for maintaining mental well-being", "Mental health strategies"],
+        "responses": [
+            "Prioritize self-care activities that bring you joy and relaxation. Connect with supportive friends and family, and don't hesitate to seek professional help if you're feeling overwhelmed.",
+            "Practice self-compassion and avoid self-criticism. Engage in activities that challenge your mind, such as puzzles or learning new skills. Remember, it's okay to ask for help when needed."
+        ]
+    },
+    {
+        "tag": "mental_health_resources",
+        "patterns": ["Where can I find mental health resources?", "Support helpline for mental health", "Counseling services near me"],
+        "responses": [
+            "You can find mental health resources and counseling services through local clinics, hospitals, or mental health organizations. Helplines like [National Helpline Number] are available 24/7 for immediate support."
+        ]
+    },
+    {
+      "tag": "health_advice",
+      "patterns": ["What's a good diet plan?", "How can I boost my immunity?", "Tell me about healthy eating habits", "Tips for staying active"],
+      "responses": [
+          "A balanced diet includes fruits, vegetables, whole grains, and lean proteins. Avoid processed foods and sugary drinks.",
+          "To boost immunity, consume vitamin C rich foods, stay hydrated, exercise regularly, and get enough sleep.",
+          "Healthy eating habits include portion control, eating at regular intervals, and avoiding late-night snacking.",
+          "Staying active is crucial for your overall health. Aim for at least 30 minutes of exercise most days. Find activities you enjoy, such as walking, dancing, or swimming."
+      ]
+  },
+  {
+      "tag": "sleep_health",
+      "patterns": ["How can I improve my sleep quality?", "Tips for better sleep", "What's a good bedtime routine?", "How much sleep do I need?"],
+      "responses": [
+          "Create a bedtime routine, like reading or taking a warm bath, to signal your body it's time to sleep.",
+          "Avoid screens before bedtime as the blue light can disrupt your sleep-wake cycle. Opt for relaxing activities instead.",
+          "Establish a consistent sleep schedule by going to bed and waking up at the same time every day, even on weekends.",
+          "Adults generally need 7-9 hours of sleep per night for optimal health and well-being."
+      ]
+  },
+  {
+    "tag": "exercise_tips",
+    "patterns": ["What are some effective exercises I can do at home?", "How to start a workout routine?", "Tips for staying motivated to exercise", "Exercises for specific body parts"],
+    "responses": [
+        "Bodyweight exercises like push-ups, squats, and planks can be effective at home. You can also try yoga and stretching routines.",
+        "To start a workout routine, begin with light exercises and gradually increase intensity. Consult a fitness trainer for personalized guidance.",
+        "Staying motivated to exercise can be challenging. Set realistic goals, find a workout buddy, and reward yourself for achievements to stay motivated.",
+        "For specific body parts, exercises like lunges for legs, bicep curls for arms, and crunches for abs can be beneficial. Consult a fitness expert for proper form."
+    ]
+},
+{
+    "tag": "stress_eating",
+    "patterns": ["How to avoid stress eating?", "Healthy snacks for stress relief", "Mindful eating techniques", "Alternatives to emotional eating"],
+    "responses": [
+        "Avoid stress eating by identifying triggers, practicing relaxation techniques, and engaging in hobbies to divert your mind.",
+        "Healthy snacks like nuts, fruits, and yogurt can provide stress relief without compromising your health.",
+        "Practice mindful eating by savoring each bite, eating without distractions, and paying attention to your body's hunger and fullness cues.",
+        "Instead of emotional eating, try activities like journaling, taking a walk, talking to a friend, or practicing deep breathing to cope with emotions."
+    ]
+},
+{
+    "tag": "hydration_tips",
+    "patterns": ["How much water should I drink daily?", "Tips for staying hydrated", "Benefits of drinking water", "Healthy alternatives to sugary drinks"],
+    "responses": [
+        "Aim to drink at least 8 glasses (about 2 liters) of water per day. Adjust based on your physical activity and climate.",
+        "Carry a reusable water bottle, set reminders, and infuse water with fruits and herbs for flavor to stay hydrated throughout the day.",
+        "Drinking water supports digestion, skin health, and overall bodily functions. It also helps regulate body temperature and flush out toxins.",
+        "Healthy alternatives to sugary drinks include herbal teas, infused water, coconut water, and sparkling water with a splash of citrus."
+    ]
+},
+
+{
+  "tag": "nutrition_tips",
+  "patterns": ["What is a balanced diet?", "How to plan healthy meals?", "Tips for portion control", "Benefits of eating organic foods"],
+  "responses": [
+      "A balanced diet includes fruits, vegetables, whole grains, lean proteins, and healthy fats. Plan your meals with variety and moderation in mind.",
+      "Plan healthy meals by incorporating a variety of colorful fruits and vegetables, whole grains, and lean proteins. Avoid processed foods and excess sugar and salt.",
+      "Practice portion control by using smaller plates, measuring servings, and listening to your body's hunger and fullness cues.",
+      "Organic foods may reduce exposure to pesticides. However, it's essential to wash all fruits and vegetables, organic or not, before consumption."
+  ]
+},
+{
+  "tag": "sleep_tips",
+  "patterns": ["How to improve sleep quality?", "Tips for a bedtime routine", "Effects of lack of sleep on health", "Natural remedies for insomnia"],
+  "responses": [
+      "Improve sleep quality by creating a relaxing bedtime routine, keeping the room dark and quiet, and maintaining a consistent sleep schedule.",
+      "Establish a bedtime routine by avoiding screens before sleep, practicing relaxation techniques like reading or taking a warm bath, and keeping the bedroom cool and comfortable.",
+      "Lack of sleep can affect mood, memory, and overall health. Chronic sleep deprivation may increase the risk of chronic conditions like diabetes and heart disease.",
+      "Natural remedies for insomnia include herbal teas like chamomile or valerian root, meditation, deep breathing exercises, and creating a calming sleep environment."
+  ]
+},
+{
+  "tag": "weight_management",
+  "patterns": ["How to lose weight effectively?", "Tips for healthy weight gain", "Managing weight during holidays", "Balancing diet and exercise for weight management"],
+  "responses": [
+      "Lose weight effectively by adopting a balanced diet, regular exercise, and staying consistent. Avoid crash diets and focus on long-term lifestyle changes.",
+      "For healthy weight gain, focus on nutrient-dense foods like nuts, avocados, and whole grains. Incorporate protein-rich foods and strength training exercises.",
+      "Manage weight during holidays by staying active, practicing mindful eating, and choosing smaller portions of indulgent foods. Stay hydrated and prioritize sleep.",
+      "Balancing diet and exercise is key to weight management. Focus on portion control, eat a variety of foods, and engage in both cardio and strength training exercises."
+  ]
+},
+{
+  "tag": "heart_health",
+  "patterns": ["Tips for a healthy heart", "Foods for heart health", "Benefits of regular cardiovascular exercise", "Managing cholesterol levels"],
+  "responses": [
+      "Maintain a healthy heart by quitting smoking, managing stress, staying physically active, and consuming a heart-healthy diet.",
+      "Foods for heart health include fish high in omega-3 fatty acids, fruits, vegetables, whole grains, nuts, and olive oil. Limit saturated fats, sodium, and added sugars.",
+      "Regular cardiovascular exercise strengthens the heart muscle, improves circulation, and lowers the risk of heart disease. Aim for at least 150 minutes of moderate-intensity exercise per week.",
+      "Manage cholesterol levels by consuming soluble fiber, healthy fats like avocados and nuts, and avoiding trans fats. Regular exercise and quitting smoking also contribute to healthy cholesterol levels."
+  ]
+}
+
+
+    ]
+  }
+  
+  
